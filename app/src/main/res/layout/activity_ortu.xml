@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/accent_material_dark"
+    tools:context=".ortu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:layout_marginBottom="20dp"
+            android:text="Data Orang Tua"
+            android:textStyle="bold"
+            android:textColor="@color/design_default_color_primary"/>
+
+
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Ayah"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext_diri_form"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPersonName"
+            android:hint="Nama Ayah" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pendidikan Ayah"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext_diri_form"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPersonName"
+            android:hint="Pendidikan Ayah" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kategori Pekerjaan"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext_diri_form"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPersonName"
+            android:hint="Kategori Pekerjaan" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pekerjaan Ayah"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext_diri_form"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPersonName"
+            android:hint="Pekerjaan Ayah" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tempat Kerja Ayah"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext_diri_form"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPersonName"
+            android:hint="Tempat Kerja Ayah" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pendapatan Ayah"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext_diri_form"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPersonName"
+            android:hint="Pendapatan Ayah" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status Ayah"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext_diri_form"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPersonName"
+            android:hint="Status Ayah" />
+
+
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Ibu"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext_diri_form"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPersonName"
+            android:hint="Nama Ibu" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pendidikan Ibu"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editText9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext_diri_form"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPersonName"
+            android:hint="Pendidikan Ibu" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kategori Pekerjaan"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editText12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext_diri_form"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPersonName"
+            android:hint="Kategori Pekerjaan" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pekerjaan Ibu"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editText15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext_diri_form"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPersonName"
+            android:hint="Pekerjaan Ibu" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tempat Kerja Ibu"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editText16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext_diri_form"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPersonName"
+            android:hint="Tempat Kerja Ibu" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pendapatan Ibu"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editText17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext_diri_form"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPersonName"
+            android:hint="Pendapatan Ibu" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status Ibu"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editText18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext_diri_form"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPersonName"
+            android:hint="Status Ibu" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Anak Ke-"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editText19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext_diri_form"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPersonName"
+            android:hint="Anak Ke-" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Anak"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editText20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext_diri_form"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPersonName"
+            android:hint="Jumlah Anak" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Wali"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editText21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext_diri_form"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPersonName"
+            android:hint="Nama Wali" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No. HP Wali"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editText22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext_diri_form"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPersonName"
+            android:hint="No. HP Wali" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat Wali"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editText23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext_diri_form"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPersonName"
+            android:hint="Alamat Wali" />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RT"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editText24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext_diri_form"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPersonName"
+            android:hint="RT" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RW"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editText25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext_diri_form"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPersonName"
+            android:hint="RW" />
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kelurahan"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editText26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext_diri_form"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPersonName"
+            android:hint="Kelurahan" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kecamatan"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editText27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext_diri_form"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPersonName"
+            android:hint="Kecamatan" />
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kota"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editText28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext_diri_form"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPersonName"
+            android:hint="Kota" />
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kode Pos"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editText29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext_diri_form"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPersonName"
+            android:hint="Kode Pos" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selesai"
+            android:background="@drawable/ic_launcher_foreground"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kembali"
+            android:background="@color/colorAccent"/>
+
+    </LinearLayout>
+</ScrollView>
